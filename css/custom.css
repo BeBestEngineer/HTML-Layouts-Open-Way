@@ -1,0 +1,19 @@
+/*
+    Created on : Nov 25, 2016
+    Author     : Spinn
+*/
+
+.details-full-width span {
+    margin: 0;
+    padding: 0;
+}
+
+.phone-number-icon {
+    position: relative;
+    top: 2px;
+}
+
+section {
+/*	height: 100vh; */
+/*  высота секции равна высоте области просмотра */
+}
