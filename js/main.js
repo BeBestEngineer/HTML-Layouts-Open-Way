@@ -61,13 +61,13 @@ $(document).ready(function () {
     var windowWidth = $(window).width();
     if (windowWidth > 767) {
 // hide .sticky_navigation first
-        $("#main-navbar").hide();
+//        $("#main-navbar").hide();
 // fade in .sticky_navigation
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
                 $('#main-navbar').fadeIn(1000);
             } else {
-                $('#main-navbar').fadeOut(1000);
+//                $('#main-navbar').fadeOut(1000);
             }
         });
 
