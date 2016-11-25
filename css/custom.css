@@ -37,4 +37,9 @@
     .title-about-programm-header {
         font-size: 48px;
     }
+    
+    .team-member {
+        width: 78%;
+    }
+    
 }
