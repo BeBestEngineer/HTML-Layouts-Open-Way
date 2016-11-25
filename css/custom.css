@@ -26,6 +26,12 @@
     font-size: 30px
 }
 
+.phone-number-link {
+    display: block;
+    font-size: 72px;
+    color: #565656;
+}
+
 @media (max-width: 767px) {
     .team-member {
         float: none;
@@ -50,5 +56,9 @@
     .team-member {
         width: 78%;
     }
+    
+    .phone-number-link {
+        font-size: 48px
+}
     
 }
