@@ -13,6 +13,28 @@
     top: 2px;
 }
 
-.title-about-programm {
+.title-about-programm-header,
+.title-about-programm-footer {
     font-size: 72px
+}
+
+@media (max-width: 767px) {
+    .team-member {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .home-intro-half-try {
+        text-align: center;
+    }
+    
+    .title-about-programm-header {
+        font-size: 72px;
+    }
+}
+
+@media ( max-width: 500px ) {
+    .title-about-programm-header {
+        font-size: 48px;
+    }
 }
