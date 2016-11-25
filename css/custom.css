@@ -18,6 +18,14 @@
     font-size: 72px
 }
 
+.footer-1-light a {
+    font-size: 30px
+}
+
+.team-member li i {
+    font-size: 30px
+}
+
 @media (max-width: 767px) {
     .team-member {
         float: none;
