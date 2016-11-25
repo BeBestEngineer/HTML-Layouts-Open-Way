@@ -23,18 +23,18 @@ $email = $_POST['emails'];
 $number = $_POST['numbers'];
 
 if (trim($name) == '') {
-    echo '<div class="error_message">Please Enter Your Name :) </div>';
+    echo '<div class="error_message"> Пожалуйста введите Ваше имя :) </div>';
     exit();
 } else if (trim($email) == '') {
-    echo '<div class="error_message"> Please enter a valid email address :)</div>';
+    echo '<div class="error_message"> Пожалуйста введите правильный e-mail адрес :)</div>';
     exit();
 } else if (!isEmail($email)) {
-    echo '<div class="error_message">You have enter an invalid e-mail address.</div>';
+    echo '<div class="error_message">Вы ввели e-mail в неправильном формате.</div>';
     exit();
 }
 
 if (trim($number) == '') {
-    echo '<div class="error_message">Please enter Your Phone Number.</div>';
+    echo '<div class="error_message">Пожалуйста введите ваш номер телефона.</div>';
     exit();
 }
 
@@ -76,9 +76,9 @@ if (mail($address, $e_subject, $msg, $headers)) {
 
     echo "<fieldset>";
     echo "<div id='success_page'>";
-    echo "<h2>Email Sent Successfully.</h2>";
-    echo "<p>Thank you <strong>$name</strong>, your Details has been submitted to us.</p>";
-    echo "<p>We Will reply asap :)</p>";
+    echo "<h2>Запрос отправлен!</h2>";
+    echo "<p>Спасибо <strong>$name</strong>, Ваша заявка принята</p>";
+    echo "<p>и будет рассмотрена в ближайшее время!</p>";
     echo "</div>";
     echo "</fieldset>";
 } else {

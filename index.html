@@ -51,7 +51,7 @@
         <div id="page" class="page">
             
             <!-- header-->
-            <header>
+            <header class="header">
                 <nav class="navbar fixed-nav-dark navbar-inverse  navbar-fixed-top" id="main-navbar" role="navigation">
                     <div class="container">
                         <div class="navbar-header">
@@ -69,13 +69,13 @@
 
                         <div class="collapse navbar-collapse" id="navbar-collapse">
 
-                            <ul class="nav navbar-nav navbar-right">
-                                  <li><a href="#about-programm">О программе</a></li>
-                                <li><a href="#about-massage">О массаже</a></li>
-                                <li><a href="#features">Эффект восстановления</a></li>
-                                <li><a href="#team">О мастере</a></li>
-                                <li><a href="#prices">Цены</a></li>
-                                <li><a href="#contact">Контакты</a></li>
+                            <ul class="nav navbar-nav navbar-right scroll-to-list">
+                                <li><a class="scroll-to-item" href="#about-programm">О программе</a></li>
+                                <li><a class="scroll-to-item" href="#about-massage">О массаже</a></li>
+                                <li><a class="scroll-to-item" href="#features">Эффект восстановления</a></li>
+                                <li><a class="scroll-to-item" href="#team">О мастере</a></li>
+                                <li><a class="scroll-to-item" href="#prices">Цены</a></li>
+                                <li><a class="scroll-to-item" href="#contact">Запись</a></li>
                             </ul>
                         </div>  <!--end collapse -->
                     </div>  <!--end container -->
@@ -83,7 +83,7 @@
             </header><!--/-->
 
             <!--about-programm section-->
-            <section id="about-programm" class="home">
+            <section id="about-programm" class="home scroll-to-section">
             <div class="surface-wrap"><!-- <div id="surface"></div>--></div>
             <div class="canvas-wrap"><!--<canvas id="canvas"></canvas>--></div>
             <div class="overlay">
@@ -134,7 +134,7 @@
             </section><!--end-->
 
             <!-- about-massage section-->
-            <section id="about-massage" class="sections">
+            <section id="about-massage" class="sections scroll-to-section">
                 <div class="container">
                     <div class="row">
 
@@ -189,7 +189,7 @@
             </section><!--end section--><!--/-->
 
              <!-- features section-->
-            <section id="features" class="sections">
+            <section id="features" class="features sections scroll-to-section">
                 <div class="container">
                     <div class="row">
                         <div class="details-full-width">
@@ -211,7 +211,7 @@
             </section><!--end-->
                         
             <!-- team Section-->
-            <section id="team" class="team sections">
+            <section id="team" class="team sections scroll-to-section">
                 <div class="container">
                     
                     <!-- Team Heading-->
@@ -243,7 +243,7 @@
             </section><!--end-->
 
             <!-- prices section-->
-            <section id="prices" class="download-bg-img">
+            <section id="prices" class="download-bg-img scroll-to-section">
                 <div class="overlay-img">
                     <div class="container">
                         <div class="row">
@@ -272,7 +272,7 @@
             </section><!--end-->
 
             <!-- contact section-->
-            <section id="contact" class="sections">
+            <section id="contact" class="contact sections scroll-to-section">
                 <div class="container">
                     <div class="row">
                         <div class="details-full-width">
@@ -350,6 +350,7 @@
 
 
         <script src="js/canvas/canvas.js"></script>
+        <script src="js/custom.js"></script>
 
 
 
