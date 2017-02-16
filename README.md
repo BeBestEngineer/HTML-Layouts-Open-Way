@@ -1,11 +1,11 @@
-# Создание LP на WOW page builder ( design option num. 1 )
+# Создание LP на WOW page builder
 Первый вариант landing page.
-[WOW page builder demo](http://xpeedstudio.com/html/wow/demo/)  
-[Themeforest page for WOW page builder](https://themeforest.net/item/wow-landing-page-template-with-page-builder/9794602)
 
 ## Описание
+Сайт( визитная карточка ) центра йоги в г. Новосибирск
 Для реализации проекта использовались следующие технологии:
 
 * ``HTML5``
 * ``CSS``
 * ``JavaScript``
+*  [WOW page builder](http://xpeedstudio.com/html/wow/demo/)
